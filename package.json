@@ -1,0 +1,20 @@
+{
+  "name": "cypress-framwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:prod": "npx cypress open --e2e ",
+    "test:report":"npx cypress run --record --key 56b129a3-a552-4820-939a-fa8c2bcdf05d"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0"
+  }
+}
